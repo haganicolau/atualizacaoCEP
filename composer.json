@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "ezimuel/PHP-Secure-Session",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/ezimuel/PHP-Secure-Session",
+                    "type": "git",
+                    "reference": "origin/master"
+                },
+                "autoload": {
+                    "files": [ "SecureSession.php" ]
+                }
+            }
+        }
+    ],
+    "require": {
+        "mikecao/flight": "^1.2",
+        "fpdo/fluentpdo": "1.1.*"
+    }
+}
